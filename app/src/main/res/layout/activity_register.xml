@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
+    tools:context=".RegisterActivity"
     android:orientation="vertical">
 
     <LinearLayout
@@ -27,8 +27,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#fff"
-            android:text="Login In"
-            android:textSize="30sp"
+            android:text="Util agenda es una aplicación especialmente diseñada para cumplir con las necesidades de un estudiante. Contiene herramientas que te harán la vida mas fácil, así como, una forma sencilla y elegante de organizar tus actividades."
+            android:textSize="15sp"
             android:layout_gravity="center"
             android:layout_marginTop="25dp">
         </TextView>
@@ -42,6 +42,15 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/nameEditText"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="USERNAME">
+        </EditText>
+
+        <EditText
             android:id="@+id/emailEditText"
             android:drawableLeft="@drawable/ic_email_black_24dp"
             android:drawablePadding="10dp"
@@ -50,8 +59,6 @@
             android:hint="EMAIL-ADDRESS"
             android:inputType="textEmailAddress">
         </EditText>
-
-
 
         <EditText
             android:id="@+id/passwordEditText"
@@ -64,16 +71,24 @@
         </EditText>
 
         <Button
-            android:id="@+id/loginInButton"
+            android:id="@+id/registerButton"
             android:layout_marginTop="30dp"
             android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:background="@drawable/buttonstyleblue"
-            android:text="Login In"
+            android:text="Register"
             android:textColor="#fff">
         </Button>
 
-
+        <Button
+            android:id="@+id/alrResButton"
+            android:layout_marginTop="20dp"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstyleblue"
+            android:text="Already registered"
+            android:textColor="#fff">
+        </Button>
 
     </LinearLayout>
 </LinearLayout>
