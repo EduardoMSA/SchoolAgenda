@@ -8,14 +8,20 @@
     tools:context=".AgendaActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="100dp"
+        android:id="@+id/textCourseClandar"
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:layout_weight="1"
+        android:gravity="center"
         android:text="Agenda"
-        android:layout_gravity="center"
-        android:textSize="40sp">
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
-    </TextView>
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
 
 
 </LinearLayout>
