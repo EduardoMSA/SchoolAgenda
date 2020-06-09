@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CoursesActivity"></activity>
+        <activity
+            android:name=".Notes"
+            android:label="@string/title_activity_notes"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ActivityNoteEditor" />
+        <activity android:name=".NoteEditorActivity" />
+        <activity android:name=".CoursesActivity" />
         <activity android:name=".NotesActivity" />
         <activity android:name=".AgendaActivity" />
         <activity android:name=".ResultActivity" />
@@ -23,7 +29,7 @@
         </activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".CalculatorActivity"></activity>
+        <activity android:name=".CalculatorActivity" />
     </application>
 
 </manifest>
