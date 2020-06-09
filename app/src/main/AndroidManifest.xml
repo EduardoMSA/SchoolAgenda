@@ -9,11 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".Notes"
-            android:label="@string/title_activity_notes"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".ActivityNoteEditor" />
+
         <activity android:name=".NoteEditorActivity" />
         <activity android:name=".CoursesActivity" />
         <activity android:name=".NotesActivity" />
