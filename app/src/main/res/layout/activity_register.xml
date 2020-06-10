@@ -27,8 +27,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#fff"
-            android:text="Util agenda es una aplicación especialmente diseñada para cumplir con las necesidades de un estudiante. Contiene herramientas que te harán la vida mas fácil, así como, una forma sencilla y elegante de organizar tus actividades."
+            android:text="Util Agenda is an app specially designed to fulfill any necessity a student may have. It has some tools tha will improve student life quality, while maintaining simplicity and usability."
             android:textSize="15sp"
+            android:gravity="center"
             android:layout_gravity="center"
             android:layout_marginTop="25dp">
         </TextView>

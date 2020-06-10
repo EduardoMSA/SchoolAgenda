@@ -26,12 +26,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#fff"
-            android:text="Login In"
-            android:textSize="30sp"
             android:layout_gravity="center"
-            android:layout_marginTop="25dp">
-        </TextView>
+            android:layout_marginTop="25dp"
+            android:text="Log In"
+            android:textColor="#fff"
+            android:textSize="30sp"></TextView>
 
     </LinearLayout>
 
@@ -65,14 +64,22 @@
 
         <Button
             android:id="@+id/loginInButton"
-            android:layout_marginTop="30dp"
             android:layout_width="140dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:background="@drawable/buttonstyleblue"
-            android:text="Login In"
-            android:textColor="#fff">
-        </Button>
+            android:text="Log In"
+            android:textColor="#fff"></Button>
 
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:onClick="register"
+            android:text="Don't have an account yet?"
+            android:textColor="@color/colorPrimaryDark" />
 
 
     </LinearLayout>

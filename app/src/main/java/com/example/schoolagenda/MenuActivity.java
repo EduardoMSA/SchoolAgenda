@@ -71,11 +71,11 @@ public class MenuActivity extends AppCompatActivity {
                     else if (current == 1){
                         startActivity(new Intent(MenuActivity.this, NotesActivity.class));
                     }
-                    else if (current == 3){
+                    else if (current == 2){
                         startActivity(new Intent(MenuActivity.this, CalculatorActivity.class));
                     }
-                    else if (current == 4){
-                        startActivity(new Intent(MenuActivity.this, CoursesActivity.class));
+                    else if (current == 3){
+                        startActivity(new Intent(MenuActivity.this, CourseMenuActivity.class));
                     }
                     else{
                         Toast.makeText(MenuActivity.this, "Set an activity for this item!!!", Toast.LENGTH_SHORT).show();

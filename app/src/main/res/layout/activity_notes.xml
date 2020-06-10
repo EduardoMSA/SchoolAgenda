@@ -14,9 +14,13 @@
 
     <Button
         android:id="@+id/add_note"
-        android:text="Add Note"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyleblue"
+        android:text="Add Note"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:textStyle="bold">
 
     </Button>
     <ListView
